@@ -1,4 +1,28 @@
 {
   "version": 1,
-  "deployAliases": {}
+  "deployAliases": {
+    "testnet": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/testnet.json",
+      "feepayerKeyPath": "C:\\Users\\troye/.cache/zkapp-cli/keys/test.json",
+      "feepayerAlias": "test",
+      "fee": "0.1"
+    },
+    "minatestnet": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/minatestnet.json",
+      "feepayerKeyPath": "C:\\Users\\troye/.cache/zkapp-cli/keys/tkre.json",
+      "feepayerAlias": "tkre",
+      "fee": "0.1",
+      "smartContract": "Add"
+    },
+    "minanet": {
+      "url": "https://proxy.berkeley.minaexplorer.com/graphql",
+      "keyPath": "keys/minanet.json",
+      "feepayerKeyPath": "C:\\Users\\troye/.cache/zkapp-cli/keys/troy.json",
+      "feepayerAlias": "troy",
+      "fee": "0.1",
+      "smartContract": "Add"
+    }
+  }
 }
